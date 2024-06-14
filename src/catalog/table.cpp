@@ -1,5 +1,5 @@
 #include "catalog/table.h"
-
+#define hahaha 
 uint32_t TableMetadata::SerializeTo(char *buf) const {
   char *p = buf;
   uint32_t ofs = GetSerializedSize();
